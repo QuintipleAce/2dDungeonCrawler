@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cx2si7achqi4y"]
+
+[ext_resource type="Script" uid="uid://dicopg30y4xdn" path="res://Scripts/player.gd" id="1_v0iea"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_rh4jx"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_rh4jx"]
+
+[node name="player" type="CharacterBody2D" unique_id=1204814044]
+motion_mode = 1
+script = ExtResource("1_v0iea")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1507571584]
+shape = SubResource("CircleShape2D_rh4jx")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="." unique_id=1175612722]
+position = Vector2(0, 2.861023e-06)
+scale = Vector2(20.022678, 20.02268)
+mesh = SubResource("SphereMesh_rh4jx")
