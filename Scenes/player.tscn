@@ -15,5 +15,5 @@ shape = SubResource("CircleShape2D_rh4jx")
 
 [node name="MeshInstance2D" type="MeshInstance2D" parent="." unique_id=1175612722]
 position = Vector2(0, 2.861023e-06)
-scale = Vector2(20.022678, 20.02268)
+scale = Vector2(20.022678, 16.000006)
 mesh = SubResource("SphereMesh_rh4jx")

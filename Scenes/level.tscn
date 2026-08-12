@@ -7,4 +7,4 @@
 [node name="player" parent="." unique_id=38161920 instance=ExtResource("1_tumq0")]
 position = Vector2(568, 326)
 
-[node name="Bullets" type="Node" parent="." unique_id=1098354150]
+[node name="Projectiles" type="Node" parent="." unique_id=1098354150]
