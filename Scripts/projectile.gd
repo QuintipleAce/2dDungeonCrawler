@@ -18,4 +18,3 @@ func _process(delta: float) -> void:
 
 func _on_despawn_timer_timeout() -> void:
 	queue_free()
-	print("deleted")

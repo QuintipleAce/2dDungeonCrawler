@@ -17,3 +17,13 @@ shape = SubResource("CircleShape2D_rh4jx")
 position = Vector2(0, 2.861023e-06)
 scale = Vector2(20.022678, 16.000006)
 mesh = SubResource("SphereMesh_rh4jx")
+
+[node name="dashTimer" type="Timer" parent="." unique_id=216081751]
+wait_time = 0.3
+one_shot = true
+
+[node name="dashCooldownTimer" type="Timer" parent="." unique_id=928556436]
+one_shot = true
+
+[connection signal="timeout" from="dashTimer" to="." method="_on_dash_timer_timeout"]
+[connection signal="timeout" from="dashCooldownTimer" to="." method="_on_dash_cooldown_timer_timeout"]
