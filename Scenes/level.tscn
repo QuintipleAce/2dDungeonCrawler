@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://7hxynh2sla0m"]
 
 [ext_resource type="PackedScene" uid="uid://cx2si7achqi4y" path="res://Scenes/player.tscn" id="1_tumq0"]
+[ext_resource type="PackedScene" uid="uid://b33yhw8h0c8j5" path="res://Scenes/dummy.tscn" id="2_k5f4k"]
 
 [node name="level" type="Node2D" unique_id=1095308581]
 
@@ -8,3 +9,6 @@
 position = Vector2(568, 326)
 
 [node name="Projectiles" type="Node" parent="." unique_id=1098354150]
+
+[node name="Dummy" parent="." unique_id=1571744986 instance=ExtResource("2_k5f4k")]
+position = Vector2(800, 325)
