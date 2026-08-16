@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://b33yhw8h0c8j5"]
 
 [ext_resource type="Script" uid="uid://bltn80l4phwpp" path="res://Scripts/dummy.gd" id="1_x66xh"]
-[ext_resource type="Script" uid="uid://cb5n1qi2oxiww" path="res://Scenes/damage_label.gd" id="2_5d6mj"]
+[ext_resource type="Script" uid="uid://cb5n1qi2oxiww" path="res://Scripts/damage_label.gd" id="2_5d6mj"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_rh4jx"]
 
@@ -44,6 +44,6 @@ horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("2_5d6mj")
 
-[node name="Timer" type="Timer" parent="damageLabel" unique_id=533592593]
+[node name="Timer" type="Timer" parent="damageLabel" unique_id=962198087]
 wait_time = 0.2
 one_shot = true
